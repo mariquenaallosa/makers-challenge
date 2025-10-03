@@ -1,0 +1,28 @@
+# Gitignore para backend Java (Spring Boot)
+backend/target/
+backend/.idea/
+backend/.classpath
+backend/.project
+backend/.settings/
+backend/.mvn/
+backend/mvnw*
+backend/HELP.md
+backend/*.iml
+
+# Gitignore para frontend (Vite + React)
+loan-web/node_modules/
+loan-web/dist/
+loan-web/.env*
+loan-web/.DS_Store
+loan-web/.idea/
+loan-web/*.log
+
+# Archivos y carpetas comunes
+*.log
+*.tmp
+*.swp
+*~
+.DS_Store
+.env*
+.idea/
+.vscode/
